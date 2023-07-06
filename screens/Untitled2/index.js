@@ -9,7 +9,7 @@ const Untitled2 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><View style={styles.QcVmQFfL}><Text style={styles.GfMAusAj}>Lorem ipsum…</Text></View></ScrollView>
+    }}><View style={styles.QcVmQFfL}><Text style={styles.GfMAusAj}>Lorem ipsum…</Text></View><View style={styles.vOfhNBZR}></View></ScrollView>
     </SafeAreaView>;
 };
 
@@ -30,6 +30,13 @@ const styles = StyleSheet.create({
     lineHeight: 14,
     fontSize: 14,
     borderRadius: 0
+  },
+  vOfhNBZR: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777"
   }
 });
 export default Untitled2;
