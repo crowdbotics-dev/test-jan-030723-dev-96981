@@ -16,19 +16,19 @@ const WelcomeScreen = () => {
     </SafeAreaView>;
 };
 
-const containerMobile = {
-  backgroundColor: "#F8F8FC",
-  height: "100%"
-};
 const styles = StyleSheet.create({
   container: { ...Platform.select({
       web: {
         backgroundColor: "#F8F8FC",
         minHeight: "100vh"
       },
-      ios: { ...containerMobile
+      ios: {
+        backgroundColor: "#F8F8FC",
+        height: "100%"
       },
-      android: { ...containerMobile
+      android: {
+        backgroundColor: "#F8F8FC",
+        height: "100%"
       }
     })
   },
